@@ -23,7 +23,7 @@ Rush 00
 Projeto em grupo (ASCII art).
 
 Rush 01
-Solver de Skyscrapers usando backtracking.
+Solver de Skyscrapers feito por  @VitorMeloDev, e validações feita por mim.
 Inclui o script `stress_tester.sh` que fiz para validar o binário automaticamente.
 
 ## Compilação
