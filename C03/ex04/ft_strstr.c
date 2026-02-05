@@ -24,7 +24,8 @@ char	*ft_strstr(char *str, char *to_find)
 		aux_s = str;
 		aux_x = to_find;
 		while (*aux_x != '\0' && *aux_s == *aux_x)
-			*aux_s++ = *aux_x++;
+			*aux_s++;
+			*aux_x++;
 		if (*aux_x == '\0')
 			return (str);
 		str++;
