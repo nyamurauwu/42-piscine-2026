@@ -1,34 +1,88 @@
-# 42sp piscine 2026
+<div align="center">
 
-Exercícios e projetos desenvolvidos durante a piscina da 42 São Paulo.
+# 🏊‍♂️ 42 São Paulo - Piscine 2026
 
-## Conteúdo
+**Todos os projetos desenvolvidos durante a C Piscine**
 
-Shell00 / Shell01
-Fundamentos de terminal e shell scripting.
+</div>
 
-C00
-Introdução, write e loops.
+## 📖 Sobre
 
-C01
-Ponteiros, swap e arrays.
+Este repositório contém os exercícios e projetos desenvolvidos durante a **Piscine da 42 São Paulo** (Janeiro/Fevereiro de 2026). A Piscine é um mergulho intensivo no ecossistema C e na metodologia de aprendizado por pares.
 
-C02
-Manipulação de strings e verificações (isalpha, isnumeric).
+## 🗂️ Módulos
 
-C03
-Reimplementação de funções da libc (strcmp, strcat, strstr).
+### 🐚 Shell00 & Shell01
 
-Rush 00
-Projeto em grupo (ASCII art).
+Comandos básicos de Unix, manipulação de arquivos, permissões e scripts fundamentais.
 
-Rush 01
-Solver de Skyscrapers feito por  @VitorMeloDev, e validações e parsing feitas por mim.
-Inclui o script `stress_tester.sh` que fiz para validar o binário automaticamente.
+### 💻 C Piscine
 
-## Compilação
+Desenvolvimento de lógica e algoritmos em C:
 
-Todos os arquivos C seguem a Norminette.
-Compilar com as flags padrão:
+* **C00 a C03:** Fundamentos, ponteiros, manipulação de strings e recriação de funções da biblioteca padrão.
+* **C04:** Focado em conversões de tipos e exibição de dados (`ft_atoi` e `ft_putnbr`).
+* **C06:** Manipulação de argumentos recebidos via terminal.
 
-gcc -Wall -Wextra -Werror *.c -o prog
+### 🚀 Rush Projects
+
+* **Rush 00:** Criação de estruturas lógicas para exibição de caracteres.
+* **Rush 01 (Skyscrapers Solver):**
+* **Lógica do Solver:** Desenvolvida por [@VitorMeloDev](https://github.com/VitorMeloDev).
+* **Parsing, Validações e Stress Tester:** Implementados por mim.
+* **Modularização:** O código foi dividido e organizado em arquivos por mim para separar a lógica principal do processamento de entrada e validações.
+
+
+
+## ⚙️ Compilação
+
+Para compilar os projetos, utilize o `gcc` com as flags obrigatórias:
+
+```bash
+gcc -Wall -Wextra -Werror seu_arquivo.c -o programa
+
+```
+
+## 📁 Estrutura do Projeto
+
+```
+42-piscine-2026/
+│
+├── 📂 shell00/          # Comandos Unix
+├── 📂 shell01/          # Scripts Shell
+├── 📂 C00/              # Introdução C
+├── 📂 C01/              # Ponteiros
+├── 📂 C02/              # Strings
+├── 📂 C03/              # Libc functions
+├── 📂 C04/              # ft_atoi & ft_putnbr
+├── 📂 C06/              # argc & argv
+├── 📂 rush00/           # ASCII Pattern
+├── 📂 rush01/           # Skyscrapers Solver + stress_tester.sh
+└── 📄 README.md
+
+```
+
+## ✅ Norminette
+
+Todo o código segue rigorosamente os padrões de estilo da **Norminette v4**.
+
+```bash
+norminette **/*.c
+
+```
+
+## 🐙 Autor
+
+[github.com/nyamurauwu](https://github.com/nyamurauwu)
+
+🏫 42 São Paulo - 2026
+
+## 🤝 Agradecimentos
+
+Um salve especial ao [@VitorMeloDev](https://github.com/VitorMeloDev) pela parceria no Rush 01 e a todos os colegas de Piscine que ajudaram nos reviews e na jornada!
+
+<div align="center">
+
+**Made with 💙 during the 42 São Paulo Piscine**
+
+</div>
